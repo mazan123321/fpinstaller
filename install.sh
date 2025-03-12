@@ -36,7 +36,7 @@ fi
 
 # Установка зависимостей
 echo -e "${GREEN}Установка пакетов...${RESET}"
-pkg install -y python python-dev libxml2 libxslt openssl screen curl unzip jq
+pkg install -y python libxml2 libxslt openssl screen curl unzip jq
 
 # Виртуальное окружение
 echo -e "${GREEN}Создание виртуального окружения...${RESET}"
